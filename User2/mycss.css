@@ -1,0 +1,206 @@
+@import url(../ICON/fontawesome-free-6.5.2-web/css/all.css);
+body {
+    font-family: Arial, sans-serif;
+
+  }
+.navbar-custom {
+    background-color: #e0f7fa;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.nav-link {
+    color: black !important;
+}
+.dropdown-menu {
+    background-color: #E0F7FA;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.badge-custom {
+    background-color: #FF3E3B;
+    color: white;
+}
+.navbar-nav .btn {
+    margin-left: 10px;
+}
+.container {
+    max-width: 1200px;
+}
+
+#signin, #signup{
+    background-color: #e0f7fa; 
+}
+ .overflow-section {
+            background-color: #e0f7fa; /* Light background color */
+            padding: 2rem; /* Padding for spacing */
+        }
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .content-text {
+            max-width: 500px;
+            margin-right: 2rem;
+        }
+        .btn-buy {
+            background-color: #ff5e62;
+            border: none;
+            color: white;
+            padding: 0.5rem 2rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-buy:hover {
+            background-color: #ff3b4f;
+        }
+        @keyframes slide {
+            0%, 100% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(-100%);
+            }
+        }
+        .slide {
+            animation: slide 2s linear infinite;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .content-text {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        .cart-item img {
+            width: 100px;
+            height: 100px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+        
+        .sign-in-container {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .google-sign-in {
+             display: flex; 
+            align-items: center;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        
+        .profile-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .google-sign-in-text {
+            flex: 1;
+            text-align: left;
+        }
+        
+        .google-sign-in-text p {
+            margin: 0;
+            font-size: 14px;
+        }
+        
+        .google-icon {
+             color: #4285f4; 
+            font-size: 24px;
+        }
+        
+        .apple-sign-in {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000000;
+            color: #ffffff;
+            border-radius: 25px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .apple-sign-in i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+           .time span {
+            display: block;
+          }
+          .email button{
+           background-color: #ff3366;;
+          }
+          .email button:hover {
+            background-color: #ff4b4b;
+          }
+           .shirt{
+            background-color: #E0F7FA;
+           }
+          .shirt .countdown .time {
+            flex: 1;
+            margin: 0 5px;
+          }
+          
+          .shirt .email input {
+            flex: 1;
+          }
+          
+          .shirt .email button {
+            flex-shrink: 0;
+          }
+          
+          .subscription-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+          }
+          .subscription-section .background-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+          }
+          .subscription-section h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+          }
+          .subscription-section .text-small {
+            font-size: 0.9rem;
+            color: #ff3366;
+            margin-bottom: 20px;
+          }
+          .subscription-section .btn-custom {
+            background-color: #ff3366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+          }
+          .subscription-section .message {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: green;
+          }
+           
